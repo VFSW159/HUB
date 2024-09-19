@@ -1,28 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Esse é meu primeiro site!">
-    <meta name="keywords" content="Projeto, Desenvolvimento, Programação">
-    <meta name="author" content="Kayke Sales">
-    <title>Projeto Hub</title>
+    <title>Home</title>
 </head>
-
-    <h1>Meu Projeto HUB - GTI</h1>
+<body>
+    <h1>Projeto: criando um site - GTI</h1>
     <p>Nosso projeto consiste em um site para teste.</p>
     <p>Faça seu login para acessá-lo.</p>
     <hr><br>
+    <h1 id= "logado"></h1>
 
-    <form>
-        <label for="campo_Login">Login:</label>
-        <input id="campo_Login" type="email" placeholder="Digite seu email" required><br><br>
-
-        <label for="campo_Senha">Senha:</label>
-        <input id="campo_Senha" type="password" placeholder="Digite sua senha" required><br><br>
-
-        <input type="submit" value="Acessar">
-    </form>
-
-</body>
+    <button onclick="sair()">entrar</button>
+    <script src="./assets/js/index.js"></script>
 </html>
