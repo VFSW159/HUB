@@ -264,9 +264,9 @@
     .newsletter {
         width: 100%;
         float: left;
-        background-color: rgb(92, 3, 193);
+        background-color: rgb(91, 7, 187);
         padding: 20px 8%;
-    }
+        }
     
     .newsletter h2 {
         font-size: 1.7em;
@@ -294,7 +294,9 @@
     .pc1 {
         text-align: center;
     }
-    
+
+}
+}
     .rodape {
         width: 100%;
         float: left;
